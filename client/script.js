@@ -72,8 +72,8 @@ const handleSubmit = async (e) => {
 
   loader(messageDiv)
 
-  const response = await fetch('https://codex-nmmp.onrender.com', {
-  // const response = await fetch('http://localhost:5001', {
+  // const response = await fetch('https://codex-nmmp.onrender.com', {
+  const response = await fetch('http://localhost:5001', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json'
